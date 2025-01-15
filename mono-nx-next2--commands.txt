@@ -31,3 +31,11 @@ npx nx g @nx/next:page --name=login --project=list
     ✔ Which stylesheet format would you like to use? · css
 
 npx nx g @nx/next:page --name=login --project=list --path=apps/forum/src/app/login
+
+mkdir lib
+npx nx g @nx/next:library lib-ui --directory=lib/lib-ui
+
+    ✔ Which stylesheet format would you like to use? · css
+    ✔ Which bundler would you like to use to build the library? Choose 'none' to skip build setup. · none
+    ✔ Which linter would you like to use? · none
+    ✔ What unit test runner should be used? · none

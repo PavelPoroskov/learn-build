@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mono-nx-next2/lib-ui": ["lib/lib-ui/src/index.ts"],
+      "@mono-nx-next2/lib-ui/server": ["lib/lib-ui/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
