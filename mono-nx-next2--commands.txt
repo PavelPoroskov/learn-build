@@ -41,3 +41,8 @@ npx nx g @nx/next:library lib-ui --directory=lib/lib-ui
     ✔ What unit test runner should be used? · none
 
 npx nx g @nx/next:component auth-component --project=lib-ui --path=lib/lib-ui/src/lib/auth-component/auth-component
+
+// implement lib/lib-ui/src/lib/auth-component/auth-component.tsx
+// check
+npx nx start list
+    http://localhost:3000/login
