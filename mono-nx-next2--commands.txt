@@ -46,3 +46,9 @@ npx nx g @nx/next:component auth-component --project=lib-ui --path=lib/lib-ui/sr
 // check
 npx nx start list
     http://localhost:3000/login
+
+npx nx g @nx/js:lib login-api-types --directory=lib/login-api-types
+
+
+TODO implement api with NextJS
+    api is implemented with ExpressJS

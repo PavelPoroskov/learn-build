@@ -1,0 +1,19 @@
+{
+  "name": "login-api-types",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "lib/login-api-types/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/lib/login-api-types",
+        "main": "lib/login-api-types/src/index.ts",
+        "tsConfig": "lib/login-api-types/tsconfig.lib.json",
+        "assets": ["lib/login-api-types/*.md"]
+      }
+    }
+  },
+  "tags": []
+}
