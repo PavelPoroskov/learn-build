@@ -9,3 +9,13 @@ npx create-nx-workspace@latest mono-nx-next2 --preset=next
     ✔ Which CI provider would you like to use? · skip
     ✔ Would you like remote caching to make your build faster? · skip
 
+
+cd mono-nx-next2
+npm i -g nx
+
+nx generate @nx/next:application --name=forum --directory=apps/forum
+
+    ✔ What unit test runner should be used? · none
+    ✔ Which E2E test runner would you like to use? · none
+    ✔ Would you like to use the App Router (recommended)? (Y/n) · true
+    ✔ Would you like to use `src/` directory? (Y/n) · true
