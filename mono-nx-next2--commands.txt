@@ -1,3 +1,8 @@
+start from
+https://dev.to/logrocket/developing-nextjs-microservices-with-nx-3h2a
+    original api use express.js
+        implement api with NextJS
+    
 npx create-nx-workspace@latest mono-nx-next2 --preset=next
 
     ✔ Application name · list
@@ -48,10 +53,6 @@ npx nx start list
     http://localhost:3000/login
 
 npx nx g @nx/js:lib login-api-types --directory=lib/login-api-types
-
-
-TODO implement api with NextJS
-    api is implemented with ExpressJS
 
 nx generate @nx/next:application --name=login-api --directory=apps/login-api
     this broke 'npx nx start list'
