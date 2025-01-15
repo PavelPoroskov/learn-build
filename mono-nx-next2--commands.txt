@@ -39,3 +39,5 @@ npx nx g @nx/next:library lib-ui --directory=lib/lib-ui
     ✔ Which bundler would you like to use to build the library? Choose 'none' to skip build setup. · none
     ✔ Which linter would you like to use? · none
     ✔ What unit test runner should be used? · none
+
+npx nx g @nx/next:component auth-component --project=lib-ui --path=lib/lib-ui/src/lib/auth-component/auth-component
