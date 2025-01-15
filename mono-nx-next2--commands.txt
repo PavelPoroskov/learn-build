@@ -19,3 +19,15 @@ nx generate @nx/next:application --name=forum --directory=apps/forum
     ✔ Which E2E test runner would you like to use? · none
     ✔ Would you like to use the App Router (recommended)? (Y/n) · true
     ✔ Would you like to use `src/` directory? (Y/n) · true
+
+npx nx start list
+    http://localhost:3000
+npx nx start forum --port 4300
+    http://localhost:4300
+
+npx nx g @nx/next:page --name=login --project=list
+
+    ✔ Which directory do you want to create the page in? · apps/list/src/app/login
+    ✔ Which stylesheet format would you like to use? · css
+
+npx nx g @nx/next:page --name=login --project=list --path=apps/forum/src/app/login
