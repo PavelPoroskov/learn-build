@@ -52,3 +52,7 @@ npx nx g @nx/js:lib login-api-types --directory=lib/login-api-types
 
 TODO implement api with NextJS
     api is implemented with ExpressJS
+
+nx generate @nx/next:application --name=login-api --directory=apps/login-api
+    this broke 'npx nx start list'
+    fix: manually remove  ...baseConfig from eslint.config.js in apps\list, apps\forum
