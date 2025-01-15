@@ -56,3 +56,10 @@ TODO implement api with NextJS
 nx generate @nx/next:application --name=login-api --directory=apps/login-api
     this broke 'npx nx start list'
     fix: manually remove  ...baseConfig from eslint.config.js in apps\list, apps\forum
+
+check
+npx nx start login-api --port 3333
+npx nx start list
+    http://localhost:3000/login 
+        admin password must redirect to /
+        any password must show 'Invalid username or password'
