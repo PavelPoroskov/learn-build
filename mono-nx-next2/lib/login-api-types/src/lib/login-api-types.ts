@@ -1,3 +1,4 @@
-export function loginApiTypes(): string {
-  return 'login-api-types';
+export interface LoginRequestBody {
+  username: string;
+  password: string;
 }
