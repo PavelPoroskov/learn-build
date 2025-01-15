@@ -1,0 +1,11 @@
+npx create-nx-workspace@latest mono-nx-next2 --preset=next
+
+    ✔ Application name · list
+        [list]
+    ✔ Would you like to use the App Router (recommended)? · Yes
+    ✔ Would you like to use the src/ directory? · Yes
+    ✔ Test runner to use for end to end (E2E) tests · none
+    ✔ Default stylesheet format · css
+    ✔ Which CI provider would you like to use? · skip
+    ✔ Would you like remote caching to make your build faster? · skip
+
